@@ -54,7 +54,7 @@ section#produto{
 section#produto > div#img{
 
     display: block;
-    background: transparent url('./images/image-product-mobile.jpg') no-repeat;
+    background: transparent url('./../images/image-product-mobile.jpg') no-repeat;
     background-size:cover;
     height: 260px;
 
@@ -64,7 +64,7 @@ section#produto > div#img{
 div#info{
 
     display: block;
-    padding: 20px;
+    padding: 20px; 
 }
 
 
@@ -78,10 +78,13 @@ section#produto > div#info > h4{
 
 section#produto > div#info > h1{
 
+    position: relative;
+    white-space: break-word; 
     font: 700 2.2em 'Fraunces', san-serif;
     color: var(--cor3);
-
+    
 }
+
 
 div#info > p{
 

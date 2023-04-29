@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas Grandes: acima de 1200px*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    section#produto{
+
+        width: 650px;
+        height: 450px;
+    }
+
+    section#produto > div#img{
+
+        float: left;
+        background: transparent url('./../images/image-product-desktop.jpg') center center / cover no-repeat fixed;
+        width: 50%;
+        height: 100vh;
+    }
+
+    section#produto > div#info{
+
+        float: right;
+        width: 50%;
+    }
+
+    h1 {
+       word-wrap:break-all;  
+    }
+
+    section#produto > div#info > a{
+
+        width: 270px;
+    }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    section#produto{
+
+        position: absolute;
+        top: 40%;
+        width:810px;
+        height: 500px;
+    }
+
+    section#produto > div#img{
+
+        float: left;
+        background: transparent url('./../images/image-product-desktop.jpg') center center / cover no-repeat fixed;
+        width: 50%;
+        height: 100vh;
+    }
+
+    section#produto > div#info{
+
+        float: right;
+        width: 50%;
+    }
+
+    section#produto > div#info > h4{
+
+        font: 500 1.1em 'Montserrat', san-serif;
+    }
+
+    section#produto > div#info > h1{
+
+        line-height: 44px;
+        font-size: 2.6em;
+    }
+
+    section#produto > div#info > p{
+        font: 500 1.1em 'Montserrat', san-serif;
+        margin-top: 30px;
+        line-height: 30px;
+       
+    }
+
+    section#produto > div#info > a{
+
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    section#produto{
+
+        height:600px;
+        width: 900px;
+    }
+
+    section#produto > div#img{
+
+        float: left;
+        width: 50%;
+        height: 100vh;
+        background: transparent url('./../images/image-product-desktop.jpg') center center / cover no-repeat fixed;
+    }
+
+    section#produto > div#info{
+
+        float:right;
+        width: 50%;
+    }
+
+    section#produto > div#info > h4{
+
+        font-size: 1.2em;
+    }
+
+    section#produto > div#info > h1{
+
+        font-size: 3em;
+    }
+
+    section#produto > div#info > p{
+
+        font-size: 1.3em;
+        line-height: 35px;
+    }
+
+    section#produto > div#info > p#atual{
+
+        font-size: 2.5em;
+    }
+
+    section#produto > div#info > p#antigo{
+        font-size: 1.4em;
+       
+    }
+    
+    section#produto > div#info > a{
+
+        margin-top: 40px;
+        width: 400px;
+        height: 60px;
+    }
+
+    div#info > a > i{
+
+        margin-top: 10px;
+    }
+
+}
