@@ -10,6 +10,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 :root{
@@ -19,6 +20,10 @@
     --cor3:hsl(212, 21%, 14%);
     --cor4:hsl(228, 12%, 48%);
     --cor5:hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--cor2);
 }
 
 body, html{
@@ -33,6 +38,7 @@ main{
     position: relative;
     width: 100vw;
     height: 700px;
+    background-color: var(--cor2);
     
 }
 
@@ -142,4 +148,8 @@ div#info > a{
 div#info > a:hover{
 
     background-color: hsl(158, 45%, 54%);
+}
+
+.attribution{
+    background-color: var(--cor2);
 }
